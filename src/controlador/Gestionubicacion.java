@@ -11,7 +11,7 @@ public class Gestionubicacion {
 
 	public boolean crearUbicacion(Ubicacion e) {
 		boolean resp=false;
-		String cadenaSQL = "insset into ubicacion (est, zom, rem) values ("+e.getEstado()+","+ e.getZonaMilitar()+","+ e.getRegionMilitar()+","+");";
+		String cadenaSQL = "inset into ubicacion (est, zom, rem) values ("+e.getEstado()+","+ e.getZonaMilitar()+","+ e.getRegionMilitar()+","+");";
 		
 		
 		

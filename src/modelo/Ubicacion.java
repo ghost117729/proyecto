@@ -4,8 +4,16 @@ public class Ubicacion {
 	private String estado;
 	private String zonaMilitar;
 	private String regionMilitar;
+	private int idubicacion;
 	
 	
+	
+	public int getIdubicacion() {
+		return idubicacion;
+	}
+	public void setIdubicacion(int idubicacion) {
+		this.idubicacion = idubicacion;
+	}
 	public String getEstado() {
 		return estado;
 	}

@@ -8,9 +8,15 @@ public class Escuadron {
 	private String ametralladora;
 	private String rebastecedor;
 	private String medico;
+	private int idescuadron;
 	
 	
-	
+	public int getIdescuadron() {
+		return idescuadron;
+	}
+	public void setIdescuadron(int idescuadron) {
+		this.idescuadron = idescuadron;
+	}
 	public String getSargento() {
 		return sargento;
 	}

@@ -5,9 +5,16 @@ public class VehiculosTerrestre {
 	private String carrosdeCombate;
 	private String carrosBlindaos;
 	private String carrosMultiproposito;
+	private int idvehiculosterrestre;
 	
 	
 	
+	public int getIdvehiculosterrestre() {
+		return idvehiculosterrestre;
+	}
+	public void setIdterrestre(int idvehiculosterrestre) {
+		this.idvehiculosterrestre = idvehiculosterrestre;
+	}
 	public String getCamionesMilitares() {
 		return camionesMilitares;
 	}

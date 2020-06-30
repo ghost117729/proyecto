@@ -9,8 +9,17 @@ public class Soldado {
 	private String batallon;
 	private String ramaMilitar;
 	private String especialidad;
+	private int idsoldado;
 
 
+
+public int getIdsoldado() {
+		return idsoldado;
+	}
+
+	public void setIdsoldado(int idsoldado) {
+		this.idsoldado = idsoldado;
+	}
 
 public String getNombre() {
 	return nombre;
